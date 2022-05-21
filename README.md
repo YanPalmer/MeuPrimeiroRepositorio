@@ -13,3 +13,5 @@ by yanhame da palma
 
 ficou bom bixu feio
 comleta o que vou colocar no html que vou mimir
+nâo sei html
+ovo aprender ainda
