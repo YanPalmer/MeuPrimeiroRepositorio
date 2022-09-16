@@ -6,12 +6,9 @@ Meu primeiro repositório criado para aprender e desenvolver minhas aplicações
 Essa linha eu adicionei diretamente no site.
 TOP
 
-
-
-
-by yanhame da palma
-
-ficou bom bixu feio
-comleta o que vou colocar no html que vou mimir
-nâo sei html
-ovo aprender ainda
+Atualmente voltei a usar o Git e GitHub.
+Estou pronto para começar a criar os meus próprios projetos com:
+HTML5,
+CSS3,
+JavaScript e
+Python.
