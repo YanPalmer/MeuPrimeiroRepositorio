@@ -27,5 +27,3 @@ function sum(x, y) {
     return a;
 }
 console.log(sum(a))
-
-this.print
