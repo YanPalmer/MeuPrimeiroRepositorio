@@ -1,0 +1,41 @@
+p {
+    color: red;
+}
+
+#underline {
+    text-align: left;
+    text-decoration: underline;
+}
+#overline {
+    text-align: right;
+    text-decoration: overline;
+}
+#line_through {
+    text-align: center;
+    text-decoration: line-through;
+}
+a {
+    text-decoration: none;
+}
+#p1 {
+    text-transform: uppercase;
+    /* Ou
+    text-transfrm: lowercase; */
+    text-transform: justify;
+    text-indent: 50px;
+    line-height: 25px;
+    direction: rtl;
+    /* Ou
+    direction: */
+}
+#p2 {
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+#p3 {
+    word-spacing: 25px;
+}
+#shadow {
+    /* Sombra na: horizontal, vertical, desfoque(não é obrigatório) e cor */
+    text-shadow: 5px 3px 1px gray;
+}
