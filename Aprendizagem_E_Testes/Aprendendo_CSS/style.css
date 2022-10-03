@@ -1,7 +1,14 @@
-p {
+/*
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 40px
+}
+*/
+/* p {
     color: red;
 }
-
 #underline {
     text-align: left;
     text-decoration: underline;
@@ -19,14 +26,10 @@ a {
 }
 #p1 {
     text-transform: uppercase;
-    /* Ou
-    text-transfrm: lowercase; */
     text-transform: justify;
     text-indent: 50px;
     line-height: 25px;
     direction: rtl;
-    /* Ou
-    direction: */
 }
 #p2 {
     text-transform: capitalize;
@@ -36,6 +39,42 @@ a {
     word-spacing: 25px;
 }
 #shadow {
-    /* Sombra na: horizontal, vertical, desfoque(não é obrigatório) e cor */
     text-shadow: 5px 3px 1px gray;
 }
+*/
+
+/*
+Aula 11 | Overflow e Opacity
+#conteudo {
+    background-color: red;
+    width: 300px;
+    height: 50px;
+    overflow: auto;
+}
+#conteudo p {
+    opacity: 0.5;
+}
+*/
+
+/*
+Aula 16 | Colors (Parte 1)
+#cores {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(230, 89, 225, 0.5);
+}
+*/
+
+/*
+Aula 16 | Gradients (Parte 2)
+#cores {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to top left,red,blue, green);
+    background: radial-gradient(red, green);
+}
+*/
+
+/*
+Aula 18 | Float
+*/
