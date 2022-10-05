@@ -101,13 +101,13 @@ Aula 19 | Position
 position: static (default, padrão) SE POSICIONA DE ACORDO COM NAVEGADOR E NÃO COM A DIV PAI(conteudo)
 position: relative (se posiciona de acordo com a div pai)
 position: fixed (permanece onde está independentemente de onde esteja)
+position: absolute (pode posicionar qualquer elemento de acordo com o elemento pai que tenha um position diferente de static)
 right, left, top, bottom: 0
 */
 #conteudo {
     width: 600px;
     height: 1200px;
     background-color: rgb(253, 66, 66);
-    position: relative;
 }
 #texto {
     width: 500px;
