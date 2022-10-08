@@ -27,7 +27,7 @@ if (lista.length%2 == 1) {
     topo = lista[3];
     console.log("A lista tem 8 caracteres")
 }
-lista.splice(4,1)
+//lista.splice(4,1)
 console.log(topo)
 console.log(lista)
 
