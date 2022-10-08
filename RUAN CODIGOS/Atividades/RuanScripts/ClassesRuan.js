@@ -52,7 +52,7 @@ console.log(carroDeYan.ligar())
 console.log("------------")
 console.log(carroDeYan.desligar())
 console.log("------------")
-console.log(typeof this.estado)//testa nao vai pq tem varias instancias, carro de yan é uma instancia do objeto carro
+//console.log(typeof this.estado)//testa nao vai pq tem varias instancias, carro de yan é uma instancia do objeto carro
 carroDeYan.tipo() // nome da instancia do objeto "." nome do metodo q criei e "( )"
 
 console.log(carroDeYan)
