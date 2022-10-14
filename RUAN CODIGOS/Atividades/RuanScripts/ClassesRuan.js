@@ -1,3 +1,4 @@
+//Programa estudado com sucesso!
   class carro
   { //declarar variavel dentro da casse n precisa usar let, var, const...
     constructor(parametro1, parametro2, parametro3)
@@ -15,7 +16,7 @@
       console.log("ano " + this.ano)
       console.log("cor " + this.color)
       console.log("modelo " + this.modelo)
-      console.log("estado " + this.estado ? "bi bi bit" : "nao")
+      console.log("estado " + (this.estado ? "bi bi bit" : "nao"))
     }
     ligar()
     {
@@ -48,9 +49,17 @@ let carroDeYan = new carro('rosa', 2022, 'tesla gay')
 //okok
 carroDeYan.info() //Informações
 console.log("------------")
-console.log(carroDeYan.ligar())
+console.log("Ligando o carro!")
+carroDeYan.ligar()
+if (carroDeYan.estado==true){
+  console.log("Vruuuuuuuuuummmmm")
+}
 console.log("------------")
-console.log(carroDeYan.desligar())
+console.log("Desligando o carro!")
+carroDeYan.desligar()
+if (carroDeYan.estado==false){
+  console.log("OFF")
+}
 console.log("------------")
 //console.log(typeof this.estado)//testa nao vai pq tem varias instancias, carro de yan é uma instancia do objeto carro
 carroDeYan.tipo() // nome da instancia do objeto "." nome do metodo q criei e "( )"
