@@ -1,0 +1,13 @@
+/*
+<BACKGROUNDS> ---------- Learned/Aprendido
+background-color: red;
+background-image: url("imagem.jpg")
+background-repeat: repeat-x/y ou no-repeat;
+background-position; top, top right, bottom etc...;
+background-attachment: scroll(default)/fixed;
+
+"abreviação de fundo(Background ShortHand)"
+background: red url("imagem.jpg") no-repeat top right fixed
+(OBS:. Deve ser seguida uma ordem!)
+background: color image repeat attachment position;
+*/
