@@ -1,4 +1,5 @@
 /*
+17/10/2022
 <BACKGROUNDS> ---------- Learned/Aprendido
 background-color: red;
 background-image: url("imagem.jpg")
@@ -10,4 +11,14 @@ background-attachment: scroll(default)/fixed;
 background: red url("imagem.jpg") no-repeat top right fixed
 (OBS:. Deve ser seguida uma ordem!)
 background: color image repeat attachment position;
+*/
+
+/*
+18/10/2022
+<BORDERS> ----------                                           Aprendendo...
+border-width: 5px;
+border-style; solid;
+border-color: red; / border-color: red green blue yellow;
+border-radius: 15px;
+border: 5px solid red; 
 */
