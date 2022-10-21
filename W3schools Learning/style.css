@@ -15,10 +15,31 @@ background: color image repeat attachment position;
 
 /*
 18/10/2022
-<BORDERS> ----------                                           Aprendendo...
+<BORDERS> ----------  Learned
 border-width: 5px;
 border-style; solid;
 border-color: red; / border-color: red green blue yellow;
 border-radius: 15px;
 border: 5px solid red; 
+*/
+
+/*
+20/10/2022
+<MARGIN> ----------                 Aprendendo...
+margin-top: 5px;
+margin-right: 10px;
+margin-bottom: 15px;
+margin-left: 20px;
+margin: 5px 10px 15px 20px; //ShortHand margin
+div {
+    width: 300px;
+    border: 1px solid green;
+    margin-left: 100px;
+    margin: auto; //Centraliza horizontalmente o elemento
+}
+p {
+    margin-left: inherit; //Herda o valor do margin-left da <div>
+}
+
+LEARN TOMORROW margin collapse...
 */
