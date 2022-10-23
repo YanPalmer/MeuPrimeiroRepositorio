@@ -1,4 +1,13 @@
-/*
+/*Assunto_Principal
+23/10/2022
+<ASSUNTO> ---------- Learned ou Aprendendo...
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Backgrounds
 17/10/2022
 <BACKGROUNDS> ---------- Learned/Aprendido
 background-color: red;
@@ -13,7 +22,7 @@ background: red url("imagem.jpg") no-repeat top right fixed
 background: color image repeat attachment position;
 */
 
-/*
+/*Borders
 18/10/2022
 <BORDERS> ----------  Learned
 border-width: 5px;
@@ -23,9 +32,9 @@ border-radius: 15px;
 border: 5px solid red; 
 */
 
-/*
+/*Margin
 20/10/2022
-<MARGIN> ----------                 Aprendendo...
+<MARGIN> ---------- Learned
 margin-top: 5px;
 margin-right: 10px;
 margin-bottom: 15px;
@@ -41,5 +50,32 @@ p {
     margin-left: inherit; //Herda o valor do margin-left da <div>
 }
 
-LEARN TOMORROW margin collapse...
+Margin Colapse
+h1 {
+    margin: 0 0 50px 0;
+}
+h2 {
+    margin: 20px 0 0 0;
+}
+h1, h2 {
+    border: 1px solid;
+}
 */
+
+/*Padding
+23/10/2022
+<PADDING and WIDTH> ---------- Aprendendo...
+
+*/
+p {
+    margin-bottom: 25px;
+    padding: 25px;
+    width: 300px;
+    background-color: lightblue;
+}
+p2 {
+    width: 300px;
+    padding: 25px;
+    background-color: lightcoral;
+    box-sizing: border-box;
+}
