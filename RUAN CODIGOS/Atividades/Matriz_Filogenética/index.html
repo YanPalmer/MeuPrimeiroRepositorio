@@ -5,14 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela Filogenética</title>
-    <script src="./scriptFilogenética.js"></script>
+    <script src="./scriptFilogenética.js" defer></script>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+        input {
+            background-color: lightblue;
+        }
+        /* input#NumColunas, #NumLinhas {
+            border-radius: 20px;
+        } */
+    </style>
 </head>
 <body>
-
-    <label for="Linhas">Quantas linhas:</label>
+    <label for="Colunas">Quantas colunas:</label><br>
+    <input type="number" id="NumColunas"><br>
+    <label for="Linhas">Quantas linhas:</label><br>
     <input type="number" id="NumLinhas"><br>
-    <label for="Colunas">Quantas colunas:</label>
-    <input type="number" id="NumColunas">
+    
     <button type="submit" onclick="cod()">Botão</button>
+    <!-- <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Coluna1</th>
+                    <th>Coluna2</th>
+                    <th>Coluna3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>nome:</td>
+                    <td>idade:</td>
+                    <td>mês:</td>
+                </tr>
+            </tbody>
+            <tfooter>
+                <tr>
+                    <td>Yan</td>
+                    <td>22</td>
+                    <td>27072000</td>
+                </tr>
+            </tfooter>
+        </table>
+        <table id="tabela">
+            <tr>
+                <td>Coluna1</td>
+                <td>Coluna2</td>
+            </tr>
+        </table>
+    </div> -->
+
+    <section>
+        <h1>Tabela de exemplo</h1>
+        <table id="tabela2">
+            <thead id="Colunas">
+                <tr>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            
+        </table>
+    </section>
+    <!-- <input type="checkbox"> -->
 </body>
 </html>
