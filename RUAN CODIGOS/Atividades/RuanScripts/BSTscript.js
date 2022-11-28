@@ -19,3 +19,37 @@ class Arvore {
 
 //2.
 //3.
+
+/*
+class Pessoa
+{
+    // Atributos = variaveis ou caracteristicas
+    // _nome   se torna privado
+    _nome       // tipo string
+    _idade      // tipo integer
+    _peso       // tipo float ou real
+    _altura
+    _imc
+    _sexo
+    _email
+    _telefone
+
+    // Metodos = funções ou comportamentos
+    constructor(nome, idade, peso, altura, sexo, email, telefone){
+        this._nome = nome
+        this._idade = idade
+        this._peso = peso
+        this._altura = altura
+        this._imc = this._peso / (this._altura * this._altura)
+        this._sexo = sexo
+        this._email = email
+        this._telefone = telefone
+    }
+
+}
+
+let pessoa1 = new Pessoa("Yan", 2, 8, 2, "Masculino", "testeEmail@gmail.com", "00 12345-6789")
+
+
+console.log(pessoa1)
+*/

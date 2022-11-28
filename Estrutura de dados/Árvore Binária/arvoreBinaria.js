@@ -1,25 +1,24 @@
-class Pessoa
-{
-    // Atributos = variaveis ou caracteristicas
-    // _nome   se torna privado
-    _nome       // tipo string
-    idade      // tipo integer
-    peso       // tipo float ou real
-    altura
-    _imc
-
-    // Metodos = funções ou comportamentos
-    constructor(nome, idade, peso, altura){
-        this._nome = nome
-        this.idade = idade
-        this.peso = peso
-        this.altura = altura
-        this._imc = this.peso / (this.altura * this.altura)
+class NO{
+    raiz
+    esquerda
+    direita
+    constructor(raiz, esquerda=null, direita=null){
+        this.raiz = raiz
+        this.esquerda = esquerda
+        this.direita = direita
     }
-
 }
 
-let pessoa1 = new Pessoa("Yan", 2, 8, 2)
+class inserir{
+    if (raiz = null) {}
+    if (raiz) {}
+}
 
+array = document.getElementById("array")
 
-console.log(pessoa1)
+function rodar() {
+    //if (array)
+    //array2 = array[0]+1
+}
+
+console.log(array)
