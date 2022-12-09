@@ -5,3 +5,15 @@
 body {
     background-color: #fff;
 }
+
+div#minhaImagem {
+    border-radius: 25px;
+    position: absolute;
+    background-color: rgb(32, 160, 235);
+}
+div#minhaImagem img {
+    border-radius: 100%;
+    position: relative;
+    width: 300px;
+}
+
