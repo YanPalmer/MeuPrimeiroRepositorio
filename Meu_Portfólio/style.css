@@ -25,29 +25,39 @@ section div#minhaImagem img {
 }
 */
 
-.box {
-    width: 100px;
-    height: 100px;
+section {
+    background-color: cyan;
+    width: 600px;
+    height: 500px;
+}
+
+div#menu {
+    background-color: rgba(0, 128, 0, 0.342);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+section div#menu div#logo {
+    background-color: rgb(0, 255, 149);
+    color: yellow;
+    width: 20%;
+    height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+section #opcoes {
+    background-color: rgb(0, 255, 149);
+    width: 20%;
+    height: 100%;
+}
+
+.alinharCentro {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.box-one {
-    background: cyan;
-}
-
-.box-two {
-    background: yellow;
-    position: absolute;
-    opacity: 0.9;
-    top: 100px;
-    left: 100px;
-}
-
-.container {
-    width: 300px;
-    margin-top: 100px;
-    margin-left: 100px;
-    background: lightcoral;
 }
